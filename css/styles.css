@@ -341,7 +341,7 @@ button {
   }
 }
 
-/* mobile main banner */
+/* mobile section 1 main banner */
 .main-banner {
   background: var(--hero-background);
   padding: 72px 0;
@@ -632,3 +632,5 @@ button {
     padding-left: 24px;
   }
 }
+
+/* mobil section 2 main feature */

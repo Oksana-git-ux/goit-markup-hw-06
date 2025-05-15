@@ -736,6 +736,7 @@ body {
   text-align: left;
   color: var(--hero-background);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .title-text {
@@ -766,6 +767,12 @@ body {
     column-gap: 24px;
     row-gap: 72px;
     flex-direction: row;
+  }
+  .title {
+    text-align: left;
+  }
+  .container-feature-title {
+    width: calc((100% - 24px) / 2);
   }
 }
 
@@ -802,7 +809,6 @@ body {
   }
   .title-text {
     font-weight: 400;
-    padding-bottom: 8px;
   }
 }
 
@@ -905,7 +911,11 @@ body {
   .team-list {
     margin: 0;
   }
+  .portfolio-list {
+    width: calc((100% - 24px) / 2);
+  }
 }
+
 /* section 4 portfolio */
 .portfolio-page {
   padding-top: 96px;
